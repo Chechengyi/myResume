@@ -19,32 +19,32 @@
    
 - **智售客 公司， 开发部，WEB前端开发工程师，2018.9~2019.2**
 
-   主要负责公司旗下基于微信公众平台的H5移动端方向产品，H5 PC端方向产品，非原生APP产品，H5小游戏等产品的开发与维护，主要使用 `ReactJS` 、`React Native` 、`Vue` 等技术进行产品开发。
+   主要负责公司旗下基于微信公众平台的H5移动端方向产品，H5 PC端方向产品，非原生APP产品，H5小游戏等产品的开发与维护，主要使用 `ReactJS` 、`React     Native` 、`Vue` 等技术进行产品开发。
 
 - **指上发 公司， 开发部，WEB前端开发工程师，2017.12~2018.7**
 
    全权负责公司外包项目的前端部分的开发。项目主要是 H5 PC端，H5移动端，小程序。主要使用 `nodejs` 以及 `ReactJS`。
    
 ### 项目经历
-   - **优小菜平台管理系统**
+  - **优小菜平台管理系统**
 
   *使用到的技术*：`ReactJs` 、 `TypeScript`  、`webpack`  
 
-  我一个人负责此项目的架构与开发。项目从0到1使用`webpack4`自己搭建。解决了在前后端分离开发下的权限控制的问题，做到了将权限控制精细到页面按钮。项目引入了我自己开发的`sweet-storage`库，目的解决 `localStorage`只有永久存储，无过期时间的问题，做到了不使用 `cookie` 前端也能实现token过期。编写基础业务组件，减少项目开发重复工作，使开发效率提高20%。 并基于`webpack` 以及 `typescript` 搭了一个中后台管理系统模板，供后续使用，减少开发工作。
+  我一个人负责此项目的架构与开发。项目从0到1使用`webpack4`自己搭建。解决了在前后端分离开发下的权限控制的问题，做到了将权限控制精细到页面按钮。项目引   入了我自己开发的`sweet-storage`库，目的解决 `localStorage`只有永久存储，无过期时间的问题，做到了不使用 `cookie` 前端也能实现token过期。编写基   础业务组件，减少项目开发重复工作，使开发效率提高20%。 并基于`webpack` 以及 `typescript` 搭了一个中后台管理系统模板，供后续使用，减少开发工作。
   
-- **智售客平台商家端APP**
+ - **智售客平台商家端APP**
 
   *使用到的技术：* `React native` 、`redux`
 
-  我一个人负责此项目的开发。为APP接入了 `code push` 热更新解决方案，解决了APP每次修改代码都需要重新打包发版的问题。最终完成了所有需求，做到了APP同时适配 IOS 以及 android 系统。 
+  我一个人负责此项目的开发。为APP接入了 `code push` 热更新解决方案，解决了APP每次修改代码都需要重新打包发版的问题。最终完成了所有需求，做到了APP同   时适配 IOS 以及 android 系统。 
 
   
 
-- **趣免单平台**
+ - **趣免单平台**
 
   *使用到的技术:*   `ReactJs` 、`Vue`  、`webpack`
 
-  该平台前端总共分为五个端：总管理后台、代理商后台、商家端、业务员端、用户端。除管理后台为PC端其他均为基于微信公众平台的H5项目。我参与了总管理后台，用户端，业务员端的搭建和开发以及在开发过程中与后端开发人员沟通诸如权限、接口等相关事宜。其中PC端项目使用`ReactJs` 开发，移动端项目使用 `Vue` 开发。
+  该平台前端总共分为五个端：总管理后台、代理商后台、商家端、业务员端、用户端。除管理后台为PC端其他均为基于微信公众平台的H5项目。我参与了总管理后台，用   户端，业务员端的搭建和开发以及在开发过程中与后端开发人员沟通诸如权限、接口等相关事宜。其中PC端项目使用`ReactJs` 开发，移动端项目使用 `Vue` 开发。
   
   我主要负责用户端的开发，为项目编写基础业务组件，对接微信支付、支付宝支付以及其他平台提供的 sdk。
   
@@ -55,10 +55,10 @@
 
   github链接：[https://github.com/Chechengyi/sweet-storage](https://github.com/Chechengyi/sweet-storage)
 
-  简介：`localStorage` 本身是永久存储的，sweet-storage给`localStorage`加上了过期时间，使 `localStorage` 可以像cookie一样在指定时间后过期，并且能够订阅 `localStorage` 的过期。项目发表到了npm上可供使用。
+  简介：`localStorage` 本身是永久存储的，sweet-storage给`localStorage`加上了过期时间，使 `localStorage` 可以像cookie一样在指定时间后过期，   并且能够订阅 `localStorage` 的过期。项目发表到了npm上可供使用。
 
-- antd-admin
+  - antd-admin
 
   github链接：[https://github.com/Chechengyi/antd-admin](https://github.com/Chechengyi/antd-admin)
 
-  简介：antd-admin 是基于 ant design、webpack4、reactJs、dva、typescript 搭建的一套后台管理系统模板。给予了前后端分离开发模式下前端鉴权的案例以及建议。
+  简介：antd-admin 是基于 ant design、webpack4、reactJs、dva、typescript 搭建的一套后台管理系统模板。给予了前后端分离开发模式下前端鉴权的案例   以及建议。
